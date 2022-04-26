@@ -1,0 +1,40 @@
+.footer-container{
+    background-color: var(--dark-blue);
+    margin-top: 90px;
+}
+
+.footer-wrapper{
+    padding: 40px 20px;
+}
+.footer-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-link-container{
+    display: grid;
+    grid-template: 1fr / repeat(8, auto);
+    gap: 20px;
+}
+.footer-link-a{
+    font-size: 16px;
+    text-decoration: none;
+    color: #73A6D9;
+}
+.footer-link-a:hover{
+    color: var(--white);
+}
+.footer-img-container img{
+    width: 60px;
+    height: auto;
+    margin-right: 40px;
+}
+.footer-copyright{
+    background-color: rgb(6, 0, 77);
+}
+.footer-copyright p{
+    text-align: center;
+    color: var(--white);
+    font-size: 12px;
+    padding: 15px 20px;
+}

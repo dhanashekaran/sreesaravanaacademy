@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script></script>
+<script> 
+    $(function(){
+    $("#nav").load("/components/navbar.html"); 
+    $("#footer").load("/components/footer.html"); 
+    });
+</script>
+<script src="https://kit.fontawesome.com/016a11b327.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="./css/common.css">
+<link rel="stylesheet" href="./css/navbar.css">
+<link rel="stylesheet" href="./css/pic-text.css">
+<link rel="stylesheet" href="./css/features.css">
+<link rel="stylesheet" href="./css/footer.css">
+<link rel="stylesheet" href="./css/header.css">
+<link rel="stylesheet" href="./css/syllabus.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <div id="nav"></div>
+    <!-- Header -->
+    <div class="common-header">
+        <div class="common-header-container">
+            <div>
+                <div class="common-header-text-wrapper">
+                    <div class="common-header-text-container container">
+                        <h1 class="common-header-title">Syllabus</h1>
+                    </div>
+                </div>
+                <a class="common-header-btn" href="">Join Now <i class="fa-solid fa-right-long"></i></a>
+            </div>
+        </div>
+    </div>
+    <!-- from the director -->
+    <article style="margin: 130px 0px;"></article>
+    <div class="syllabus-container">
+        <div class="syllabus-card">
+            <a href="#">Download NEET Syllabus <br/> <i class="fa-solid fa-download"></i></a>
+        </div>
+        <div class="syllabus-card">
+            <a href="#">Download JEE Syllabus <br/> <i class="fa-solid fa-download"></i></a>
+        </div>
+    </div>
+    <!-- Footer -->
+    <div id="footer"></div>
+    <script src="./js/function.js"></script>
+</body>
+</html>

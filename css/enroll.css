@@ -1,0 +1,45 @@
+.enroll-form-container{
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 0px 20px;
+}
+.enroll-form-container h5{
+    font-size: 25px;
+    font-weight: 500px;
+}
+.enroll-form-container p{
+    font-size: 16px;
+    font-weight: 400;
+}
+select{
+    width: 100%;
+    font-size: 18px;
+    display: block;
+    margin: 10px auto 25px auto;
+    padding: 8px 5px;
+}
+
+input{
+    width: 100%;
+    font-size: 18px;
+    display: block;
+    padding: 8px 5px;
+    margin: 10px auto 25px auto;
+}
+
+button{
+    background-color: var(--dark-red);
+    border: 0;
+    padding: 10px 20px;
+    font-size: 20px;
+    color: var(--white);
+    font-weight: 700;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+
+button:hover{
+    background-color: var(--dark-blue);
+}

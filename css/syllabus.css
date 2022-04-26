@@ -1,0 +1,43 @@
+.syllabus-container{
+    max-width: 1000px;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.syllabus-card{
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+    background-image: url('../img/home-banner-img.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.syllabus-card a{
+    display: block;
+    width: 90%;
+    background-color: #EC9433C9;
+    color: var(--dark-blue);
+    margin: 0px auto;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 15px 0px;
+    margin-bottom: 20px;
+}
+.syllabus-card a:hover{
+    background-color: var(--yellow);
+}
+@media(max-width: 950px){
+    .syllabus-card{
+        flex-direction: column;
+        align-items: center;
+    }
+}

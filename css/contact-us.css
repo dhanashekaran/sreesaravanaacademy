@@ -1,0 +1,31 @@
+.pic-text-left p{
+    color: var(--dark-red);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+.pic-text-left a{
+    display: block;
+    background-image: url('../img/map.png');
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pic-text-content {
+    width: 450px;
+}
+.pic-text-title {
+    color: var(--dark-blue);
+    font-size: 25px;
+}
+.pic-text-content {
+    max-width: 500px;
+}
+.pic-text-para {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 0px;
+  }
