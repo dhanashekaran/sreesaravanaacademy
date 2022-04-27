@@ -96,5 +96,23 @@
         background-color: var(--dark-blue);
         color: var(--white);
     }
+    .header-text-wrapper {
+        padding: 30px 20px;
+      }
 
+}
+
+@media(max-width: 500px){
+    .nav-logo-section img{
+        width: 80px;
+    }
+    .nav-container {
+        padding: 20px 20px;
+    }
+    .nav-link-section-show{
+        top: 80px;
+    }
+    .header-title {
+        font-size: 50px;
+    }
 }

@@ -1,6 +1,5 @@
 .common-header{
     height: 500px;
-    background-image: url('../img/home-banner-img.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -10,9 +9,11 @@
     display: flex;
     align-items: center;
 }
+.common-header-container div{
+    flex-grow: 1;
+}
 .common-header-text-wrapper{
     background-color: #F0EFE6A3;
-    width: 100vw;
     padding: 40px 0px;
     margin-bottom: 50px;
 }
@@ -42,4 +43,9 @@
     color: var(--dark-blue);
     text-align: center;
     background-color: var(--yellow);
+}
+@media(max-width: 500px){
+    .common-header{
+        height: 380px;
+    }
 }

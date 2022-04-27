@@ -1,3 +1,6 @@
+.pic-text-container-2{
+    padding: 0px 20px;
+}
 .pic-text-left p{
     color: var(--dark-red);
     font-size: 16px;
@@ -15,7 +18,8 @@
     background-size: cover;
 }
 .pic-text-content {
-    width: 450px;
+    max-width: 450px;
+    margin-left: 50px;
 }
 .pic-text-title {
     color: var(--dark-blue);
@@ -28,4 +32,26 @@
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 0px;
+}
+article{
+    margin: 40px 0px;
   }
+@media(max-width: 1000px){
+  article{
+    margin: 50px 0px;
+     }
+  .pic-text-content {
+    margin-left: 0px;
+    }
+}
+@media(max-width: 500px){
+    article{
+        margin: 30px 0px;
+    }
+    .pic-text-left a{
+        width: 100%;
+    }
+    .pic-text-content {
+        max-width: 450px;
+    }
+}

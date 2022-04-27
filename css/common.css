@@ -43,11 +43,13 @@
     display: flex;
     align-items: center;
 }
+.header-container div{
+    flex-grow: 1;
+}
 .header-text-wrapper{
     background-color: #F0EFE6A3;
-    width: 100vw;
     padding: 40px 0px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 .header-text-container{
     text-align: center;
@@ -58,10 +60,12 @@
     color: var(--dark-blue);
 }
 .header-subtitle{
-    margin-top: 60px;
     color: var(--dark-blue);
     font-weight: 500;
     font-size: 16px;
+    max-width: 700px;
+    margin: 0px auto;
+    margin-top: 20px;
 }
 .header-btn{
     border-radius: 5px;

@@ -1,6 +1,7 @@
 .info-section{
-   width: 800px;
-   margin: 0px auto; 
+   max-width: 800px;
+   margin: 0px auto;
+   padding: 0px 20px; 
    text-align: center;
 }
 .info-section p{
@@ -9,6 +10,7 @@
     letter-spacing: 0.1px;
     font-size: 16px;
     color: #5a5a5a;
+    text-align: left;
 }
 .pic-text-img {
     width: 430px;
@@ -20,4 +22,30 @@
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 0px;
+    text-align: left;
+}
+.article1{
+    margin: 90px 0px;
+}
+@media(max-width: 1000px){
+   .pic-text-img{
+       margin-top: 50px;
+   }
+   .pic-text-content {
+    max-width: 800px;
+    }
+    .article1{
+        margin: 50px 0px;
+    }
+}
+@media(max-width: 500px){
+    .article1{
+        margin: 40px 0px;
+    }
+    .pic-text-title{
+        text-align: left;
+    }
+    .pic-text-img {
+        max-width: 100%;
+    }
 }
