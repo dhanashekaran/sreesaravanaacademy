@@ -19,7 +19,9 @@
 <link rel="stylesheet" href="./css/features.css">
 <link rel="stylesheet" href="./css/footer.css">
 <link rel="stylesheet" href="./css/header.css">
-<link rel="stylesheet" href="./css/contact-us.css">
+<link rel="stylesheet" href="./css/gallery.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.0.0-beta.3/css/lightgallery-bundle.css">
 </head>
 <body>
     <!-- Navbar -->
@@ -39,12 +41,11 @@
     </div>
     <!-- from the director -->
 
-
-
-    <form name="submit-to-google-sheet">
-        <input name="email" type="email" placeholder="Email" required>
-        <button type="submit">Send</button>
-      </form>
+    <section class="gallery-section-container">
+        <h3 class="section-title">Infrastructure Images</h3>
+        <button type="button" class="btn btn-success" id="dynamic-gallery-demo">Launch
+            Gallery</button>
+    </section>
       
       <script>
         const scriptURL = 'https://script.google.com/macros/s/AKfycbzURnm4m5rAcqg8-UvB125C72H44z9aLGVtTHpuA7kZ5pZKgZeJhez_KjgCbESEmLQp/exec'
@@ -56,10 +57,19 @@
             .then(response => console.log('Success!', response))
             .catch(error => console.error('Error!', error.message))
         })
+
+
+        // _____________________________________________________________________
+
       </script>
 
     <!-- Footer -->
     <div id="footer"></div>
     <script src="./js/function.js"></script>
+    <script src="./js/gallery.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.0.0-beta.3/lightgallery.umd.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.0.0-beta.3/plugins/thumbnail/lg-thumbnail.umd.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.0.0-beta.3/plugins/zoom/lg-zoom.umd.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.0.0-beta.3/plugins/video/lg-video.umd.js" crossorigin="anonymous"></script>
 </body>
 </html>

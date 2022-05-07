@@ -1,0 +1,17 @@
+.inline-gallery-container {
+    width: 700px;
+    height: 500px;
+    position: relative;
+  }
+
+  
+.gallery-section-container{
+    max-width: 800px;
+    margin: 100px auto;
+}
+
+
+.section-title{
+    text-align: center;
+    display: block;
+}
