@@ -1,5 +1,5 @@
 .enroll-form-container{
-    max-width: 800px;
+    max-width: 1200px;
     margin: 50px auto;
     padding: 0px 20px;
 }
@@ -11,20 +11,24 @@
     font-size: 16px;
     font-weight: 400;
 }
-select{
+.select{
     width: 100%;
     font-size: 18px;
     display: block;
     margin: 10px auto 25px auto;
     padding: 8px 5px;
+    border: 1px solid #cdcdcd;
+    /* border-radius: 5px; */
 }
 
-input{
+.input{
     width: 100%;
     font-size: 18px;
     display: block;
     padding: 8px 5px;
     margin: 10px auto 25px auto;
+    border: 1px solid #cdcdcd;
+    /* border-radius: 5px; */
 }
 
 button{
@@ -42,4 +46,41 @@ button{
 
 button:hover{
     background-color: var(--dark-blue);
+}
+
+.form-field{
+    display: inline-block;
+    width: 30%;
+}
+.form-field-10{
+    width: 90%;
+}
+/* .form-field-1{
+    width: 160px;
+}
+.form-field-2{
+    width: 240px;
+}
+.form-field-4{
+    width: 160px;
+}
+.form-field-5{
+    width: 160px;
+}
+.form-field-7{
+    width: 45%;
+}
+.form-field-8{
+    width: 45%;
+} */
+
+@media(max-width: 1000px){
+    .form-field{
+        width: 45%;
+    }
+}
+@media(max-width: 700px){
+    .form-field{
+        width: 90%;
+    }
 }

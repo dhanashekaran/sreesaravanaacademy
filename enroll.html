@@ -42,79 +42,121 @@
         <h5>Enrollment Form</h5>
         <article style="margin: 10px 0px;"></article>
         <p>Fields marked with an asterisk (*) are required.</p>
-        <article style="margin: 4px 0px;"></article>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+       
         <article style="margin: 20px 0px;"></article>
         <form class="enroll-form" id="enroll-form" name="enroll-form">
-            <p>Choose Category *</p>
-            <select name="category" id="category" required>
-                <option value="Medical">Medical</option>
-                <option value="Engineering">Engineering</option>
-            </select>
-            <p>Choose Batch *</p>
-            <select name="batch" id="category" required>
-                <option value="Crash-Course">Crash Course</option>
-                <option value="Repeater Course">Repeater Course</option>
-                <option value="11th - 2 Year program">11th - 2 Year program</option>
-                <option value="12th - 1 Year program">12th - 1 Year program</option>
-                <option value="Foundation Classes">Foundation Classes</option>
-            </select>
-            <p>Student name *</p>
-            <input type="text" name="name" id="name" required>
-            <p>Date of Birth *</p>
-            <input type="date" name="dob" id="dob" required>
-            <p>Choose Gender *</p>
-            <select name="gender" id="gender" required>
-                <option value="Male">Male</option>
-                <option value="Female">Female</option>
-            </select>
-            <p>Choose Community *</p>
-            <select name="community" id="community" required>
-                <option value="OC">OC</option>
-                <option value="BC">BC</option>
-                <option value="MBC">MBC</option>
-                <option value="SC">SC</option>
-                <option value="ST">ST</option>
-            </select>
-            <p>Father's name *</p>
-            <input type="text" name="father-name" id="father-name" required>
-            <p>Mother's name *</p>
-            <input type="text" name="mother-name" id="mother-name" required>
-            <p>Permanent Address *</p>
-            <input type="text" name="address" id="address" required>
-            <p>City *</p>
-            <input type="text" name="city" id="city" required>
-            <p>Pincode *</p>
-            <input type="text" name="pincode" id="pincode" required>
-            <p>Email Id *</p>
-            <input type="text" name="email" id="email" required>
-            <p>Father's Mobile Number *</p>
-            <input type="text" name="father-number" id="father-number" required>
-            <p>Mother's Mobile Number *</p>
-            <input type="text" name="mother-number" id="mother-number" required>
-            <p>Name of the School Where Studying Presently *</p>
-            <input type="text" name="present-school" id="present-school" required>
-            <p>Academic Performance</p>
-            <article style="margin: 10px 0px;"></article>
-            <p>Name of the school *</p>
-            <input type="text" name="school-name" id="school-name" required>
-            <p>Year  *</p>
-            <input type="text" name="year" id="year" required>
-            <p>Choose Board *</p>
-            <select name="board" id="board" required>
-                <option value="SB">SB</option>
-                <option value="CBSC">CBSC</option>
-            </select>
-            <p>Maths % (or) CGPA *  *</p>
-            <input type="text" name="maths" id="maths" required>
-            <p>Science % (or) CGPA *  *</p>
-            <input type="text" name="science" id="science" required>
-            <p>Aggr % (or) CGPA *  *</p>
-            <input type="text" name="aggr" id="aggr" required>
-            <p>Total  *</p>
-            <input type="text" name="total" id="total" required>
-            <p>Performance in competitive examinations, if any</p>
-            <input type="text" name="competitive-examinations" id="competitive-examinations">
+            <div class="form-field form-field-1">
+                <p>Choose Category *</p>
+                <select class="select" name="category" id="category" required>
+                    <option value="Medical">Medical</option>
+                    <option value="Engineering">Engineering</option>
+                </select>
+            </div>
+            <div class="form-field form-field-2">
+                <p>Choose Batch *</p>
+                <select class="select" name="batch" id="category" required>
+                    <option value="Crash-Course">Crash Course</option>
+                    <option value="Repeater Course">Repeater Course</option>
+                    <option value="11th - 2 Year program">11th - 2 Year program</option>
+                    <option value="12th - 1 Year program">12th - 1 Year program</option>
+                    <option value="Foundation Classes">Foundation Classes</option>
+                </select>
+            </div>
+            <div class="form-field form-field-3">
+                <p>Student name *</p>
+                <input class="input" type="text" name="name" id="name" required>
+            </div>
+            <div class="form-field form-field-4">
+                <p>Date of Birth *</p>
+                <input class="input" type="date" name="dob" id="dob" required>
+            </div>
+            <div class="form-field form-field-5">
+                <p>Choose Gender *</p>
+                <select class="select" name="gender" id="gender" required>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select>
+            </div>
+            <div class="form-field form-field-6">
+                <p>Choose Community *</p>
+                <select class="select" name="community" id="community" required>
+                    <option value="OC">OC</option>
+                    <option value="BC">BC</option>
+                    <option value="MBC">MBC</option>
+                    <option value="SC">SC</option>
+                    <option value="ST">ST</option>
+                </select>
+            </div>
+            <div class="form-field form-field-7">
+                <p>Father's name *</p>
+                <input class="input" type="text" name="father-name" id="father-name" required>
+            </div>
+            <div class="form-field form-field-8">
+                <p>Mother's name *</p>
+                <input class="input" type="text" name="mother-name" id="mother-name" required>
+            </div>
+            <div class="form-field form-field-10">
+                <p>Permanent Address *</p>
+                <input class="input" type="text" name="address" id="address" required>
+            </div>
+            <div class="form-field form-field-11">
+                <p>City *</p>
+                <input class="input" type="text" name="city" id="city" required>
+            </div>
+            <div class="form-field form-field-12">
+                <p>Pincode *</p>
+                <input class="input" type="text" name="pincode" id="pincode" required>
+            </div>
+            <div class="form-field form-field-13">
+                <p>Email Id *</p>
+                <input class="input" type="text" name="email" id="email" required>
+            </div>
+            <div class="form-field form-field-14">
+                <p>Father's Mobile Number *</p>
+                <input class="input" type="text" name="father-number" id="father-number" required>
+            </div>
+            <div class="form-field form-field-15">
+                <p>Mother's Mobile Number *</p>
+                <input class="input" type="text" name="mother-number" id="mother-number" required>
+            </div>
+            <div class="form-field form-field-16">
+                <p>Name of the School Where Studying Presently *</p>
+                <input class="input" type="text" name="present-school" id="present-school" required>
+            </div>
+            <div class="form-field form-field-17">
+                <p>Academic Performance</p>
+                <article style="margin: 10px 0px;"></article>
+                <p>Name of the school *</p>
+                <input class="input" type="text" name="school-name" id="school-name" required>
+            </div>
+            <div class="form-field form-field-19">
+                <p>Choose Board *</p>
+                <select class="select" name="board" id="board" required>
+                    <option value="SB">SB</option>
+                    <option value="CBSC">CBSC</option>
+                </select>
+            </div>
+            <div class="form-field form-field-20">
+                <p>Maths % (or) CGPA *</p>
+                <input class="input" type="text" name="maths" id="maths" required>
+            </div>
+            <div class="form-field form-field-21">
+                <p>Science % (or) CGPA *</p>
+                <input class="input" type="text" name="science" id="science" required>
+            </div>
+            <div class="form-field form-field-22">
+                <p>Aggr % (or) CGPA *</p>
+                <input class="input" type="text" name="aggr" id="aggr" required>
+            </div>
+            <div class="form-field form-field-23">
+                <p>Total  *</p>
+                <input class="input" type="text" name="total" id="total" required>
+            </div>
+            <div class="form-field form-field-24">
+                <p>Performance in competitive examinations, if any</p>
+                <input class="input" type="text" name="competitive-examinations" id="competitive-examinations">
+            </div>
+            <br/>
             <button type="submit">Submit</button>
         </form>
     </div>
