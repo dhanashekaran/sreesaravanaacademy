@@ -2,11 +2,19 @@
 
 .nav{
     background-color: var(--dark-red);
-    box-shadow: 1px 1px 10px 0px #dcdcdc;
+}
+.nav2{
+    background-color: var(--white);
 }
 .nav-container{
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 20px;
+}
+.nav-container2{
+    display: flex;
+    justify-content: center;
     align-items: center;
     padding: 8px 20px;
 }
@@ -22,17 +30,23 @@
     /* top: -50px; */
     /* left: 0px; */
 }
+.nav-logo-section p{
+font-size: 30px;
+font-weight: 500;
+color: var(--white);
+margin-left: 15px;
+}
 .nav-link-section{
-    margin-left: auto;
     display: flex;
     align-items: center;
+    background-color: var;
 }
 .nav-link{
     text-decoration: none;
     display: inline-block;
 }
 .nav-link-a{
-    color: var(--white);
+    color: var(--dark-blue);
     font-weight: 500;
     font-size: 18px;
     margin-right: 30px;
@@ -50,6 +64,7 @@
     padding: 5px 7px;
     border-radius: 3px;
     background-color: var(--white);
+    margin-right: 20px;
 }
 .nav-link-btn:hover{
     background-color: var(--dark-blue);
@@ -82,7 +97,7 @@
         z-index: 100;
         flex-direction: column;
         position: absolute;
-        top: 100px;
+        top: 155px;
         right: 0px;
         height: 100vh;
         justify-content: flex-start;
@@ -104,7 +119,23 @@
 
 }
 
+@media(max-width: 800px){
+    .nav-logo-section p{
+        font-size: 25px;
+    }
+    .nav-link-btn{
+        font-size: 14px;
+    }
+}
+@media(max-width: 700px){
+    .btn-container{
+        display: none;
+    }
+}
 @media(max-width: 500px){
+    .nav-logo-section p{
+        font-size: 20px;
+    }
     .nav-logo-section img{
         width: 80px;
     }
@@ -112,7 +143,7 @@
         padding: 20px 20px;
     }
     .nav-link-section-show{
-        top: 120px;
+        top: 200px;
     }
     .header-title {
         font-size: 50px;
