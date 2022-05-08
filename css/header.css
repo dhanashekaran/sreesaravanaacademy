@@ -56,4 +56,7 @@
     .common-header{
         height: 380px;
     }
+    .common-header-text-wrapper {
+        padding: 2px 0px;
+    }
 }
