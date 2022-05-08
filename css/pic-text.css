@@ -34,6 +34,11 @@
     font-weight: 400;
     margin-bottom: 60px;
 }
+.pic-text-para-heading{
+    font-weight: 500;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
 .pic-text-btn{
     border-radius: 5px;
     display: inline-block;

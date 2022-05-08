@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 :root {
     --dark-blue: #012E5C;
@@ -59,7 +59,7 @@
     font-weight: 700;
     font-size: 60px;
     color: var(--dark-blue);
-    font-family: 'Kaushan Script', cursive;
+    font-family: 'Lobster', cursive;
 }
 .header-subtitle{
     color: var(--dark-blue);

@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 .common-header{
     height: 500px;
     background-position: center;
@@ -20,9 +21,16 @@
 .common-header-text-container{
     text-align: center;
 }
-.common-header-title{
+.common-header-title-main{
     font-weight: 700;
     font-size: 60px;
+    color: var(--dark-blue); 
+    font-family: 'Lobster', cursive;
+    margin-bottom: 25px;
+}
+.common-header-page-title{
+    font-weight: 700;
+    font-size: 40px;
     color: var(--dark-blue);
 }
 .common-header-subtitle{
