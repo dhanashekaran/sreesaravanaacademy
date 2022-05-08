@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="./jquery-3.6.0.min.js" ></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
 <script> 
     $(function(){
     $("#nav").load("/components/navbar.html"); 
@@ -20,8 +21,7 @@
 <link rel="stylesheet" href="./css/footer.css">
 <link rel="stylesheet" href="./css/header.css">
 <link rel="stylesheet" href="./css/gallery.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.0.0-beta.3/css/lightgallery-bundle.css">
+<link rel="stylesheet" href="./css/gallery-module.css">
 </head>
 <body>
     <!-- Navbar -->
@@ -39,37 +39,16 @@
             </div>
         </div>
     </div>
-    <!-- from the director -->
 
     <section class="gallery-section-container">
         <h3 class="section-title">Infrastructure Images</h3>
-        <button type="button" class="btn btn-success" id="dynamic-gallery-demo">Launch
-            Gallery</button>
+        <div class="Gallery"></div>
     </section>
       
-      <script>
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbzURnm4m5rAcqg8-UvB125C72H44z9aLGVtTHpuA7kZ5pZKgZeJhez_KjgCbESEmLQp/exec'
-        const form = document.forms['submit-to-google-sheet']
-      
-        form.addEventListener('submit', e => {
-          e.preventDefault()
-          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-            .then(response => console.log('Success!', response))
-            .catch(error => console.error('Error!', error.message))
-        })
-
-
-        // _____________________________________________________________________
-
-      </script>
-
     <!-- Footer -->
     <div id="footer"></div>
     <script src="./js/function.js"></script>
+    <script src="./js/gallery-module.js"></script>
     <script src="./js/gallery.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.0.0-beta.3/lightgallery.umd.min.js" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.0.0-beta.3/plugins/thumbnail/lg-thumbnail.umd.min.js" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.0.0-beta.3/plugins/zoom/lg-zoom.umd.js" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.0.0-beta.3/plugins/video/lg-video.umd.js" crossorigin="anonymous"></script>
 </body>
 </html>

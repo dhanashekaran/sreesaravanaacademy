@@ -6,12 +6,14 @@
 
   
 .gallery-section-container{
-    max-width: 800px;
+    max-width: 1000px;
     margin: 100px auto;
+    padding: 0px 20px;
 }
 
 
 .section-title{
     text-align: center;
     display: block;
+    margin-bottom: 30px;
 }
